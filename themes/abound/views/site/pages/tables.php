@@ -75,7 +75,6 @@ $gridDataProvider = new CArrayDataProvider(array(
 		$this->beginWidget('zii.widgets.CPortlet', array(
 			'title'=>"CGridview - Bordered",
 		));
-		
 	?>
     
   	<?php $this->widget('zii.widgets.grid.CGridView', array(
@@ -89,7 +88,6 @@ $gridDataProvider = new CArrayDataProvider(array(
 				array('name'=>'lastName', 'header'=>'Last name'),
 				array('name'=>'language', 'header'=>'Language', 'type'=>'raw'),
 				array('name'=>'usage', 'header'=>'Usage', 'type'=>'raw'),
-				
 			),
 		)); ?>
     <?php $this->endWidget();?>
